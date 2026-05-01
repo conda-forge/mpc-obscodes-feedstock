@@ -1,12 +1,12 @@
 {% set name = "mpc-obscodes" %}
-{% set version = "2025.4.22" %}
+{% set version = "2025.10.1" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mpc_obscodes-{{ version }}.tar.gz
-  sha256: 61ad796a69f450569ac0bb5c48c9a5d704b8eedce0f0bf03f318169ac5413e9a
+  sha256: 103b2c385a2b39315de8f8210a2b6a73651505ff5efb46013cb4a9bae75ed1f3
 
 build:
   noarch: python
